@@ -1,6 +1,6 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -11,17 +11,18 @@ body {
     background: black;
     font-family: 'lobo';
     color: white;
+
 }
 
 #container {
-    width:100%;
-    margin: 20px auto;
+    width: 100%;
+    margin: auto;
     float: left;
 }
 
-#header {
+header {
     width: 100%;
-    height: 120px;
+    float: left;
 }
 
 
@@ -64,19 +65,35 @@ span {
 }
 
 .listBox {
-    overflow: scroll;
+    overflow: auto;
     overflow-x: hidden;
-    border: 3px solid gold;;
+    border: 5px solid #cc8042;
     border-radius: 0px;
     width: 100%;
     height: 600px;
     float: left;
     margin-left: 10px;
 }
+
+.listBox::-webkit-scrollbar {
+    width: 10px;
+}
+
+.listBox::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 50px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.listBox::-webkit-scrollbar-track {
+    display: none;
+}
+
 .textbox {
     overflow: scroll;
     overflow-x: hidden;
-    border: 3px solid gold;;
+    border: 5px solid #cc8042;
     border-radius: 0px;
     width: 45%;
     height: 600px;
@@ -87,7 +104,7 @@ span {
 
 .listInner {
     position: relative;
-    width: 775px;
+    width: 783px;
     height: 150px;
     border: 3px solid #AB281E;
     border-radius: 0px;
@@ -95,16 +112,38 @@ span {
 }
 
 .A {
-    border: 3px solid #AB281E;
+    border: 4px solid #AB281E;
+    border-radius: 0px;
+}
+
+.W {
+    border: 4px solid #7D2BEF;
+    border-radius: 0px;
+}
+
+.H {
+    border: 4px solid #e5ff00e9;
+    border-radius: 0px;
+}
+
+.T {
+    border: 4px solid rgb(0, 102, 255);
+    border-radius: 0px;
+}
+
+.Z {
+    border: 4px solid rgb(0, 240, 0);
     border-radius: 0px;
 }
 
 #footer {
     width: 100%;
     height: 100px;
-    background-color: #888;
-    clear:left;
+    clear: left;
+    text-align: center;
+    margin: 0 auto;
 }
+
 .detail {
     clear: both;
     position: absolute;
@@ -125,4 +164,9 @@ span {
 .detail:hover {
     color: black;
     background: #cc8042;
+}
+
+#imgcen {
+    display: block;
+    margin: auto;
 }
