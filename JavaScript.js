@@ -1,7 +1,6 @@
 function don() {
     alert("만지지마");
     document.getElementById("container").style.display = "none";
-    document.getElementById("hiddenimg").style.display = "flex";
 }
 
 function filter() {
@@ -255,6 +254,67 @@ function nt() {
 
 function so() {
     let text = document.getElementById("silent");
+    let textInner = document.getElementsByClassName("textInner");
+    for (let i = 0; i < textInner.length; i++) {
+        textInner[i].style.display = "none";
+    }
+    text.style.display = "flex";
+}
+
+function tb() {
+    let text = document.getElementById("Tbird");
+    let textInner = document.getElementsByClassName("textInner");
+    for (let i = 0; i < textInner.length; i++) {
+        textInner[i].style.display = "none";
+    }
+    text.style.display = "flex";
+}
+
+function rh() {
+    let text = document.getElementById("hoode");
+    let textInner = document.getElementsByClassName("textInner");
+    for (let i = 0; i < textInner.length; i++) {
+        textInner[i].style.display = "none";
+    }
+    text.style.display = "flex";
+}
+
+function db() {
+    let text = document.getElementById("Butter");
+    let textInner = document.getElementsByClassName("textInner");
+    for (let i = 0; i < textInner.length; i++) {
+        textInner[i].style.display = "none";
+    }
+    text.style.display = "flex";
+}
+
+function ah() {
+    let text = document.getElementById("helper");
+    let textInner = document.getElementsByClassName("textInner");
+    for (let i = 0; i < textInner.length; i++) {
+        textInner[i].style.display = "none";
+    }
+    text.style.display = "flex";
+}
+
+function sg() {
+    let text = document.getElementById("sgirl");
+    let textInner = document.getElementsByClassName("textInner");
+    for (let i = 0; i < textInner.length; i++) {
+        textInner[i].style.display = "none";
+    }
+    text.style.display = "flex";
+}
+function pb() {
+    let text = document.getElementById("Pbird");
+    let textInner = document.getElementsByClassName("textInner");
+    for (let i = 0; i < textInner.length; i++) {
+        textInner[i].style.display = "none";
+    }
+    text.style.display = "flex";
+}
+function good() {
+    let text = document.getElementById("Good");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
         textInner[i].style.display = "none";

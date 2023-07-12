@@ -111,7 +111,7 @@ span {
 }
 
 .textbox {
-    overflow: scroll;
+    overflow: auto;
     overflow-x: hidden;
     border: 5px solid #cc8042;
     border-radius: 0px;
@@ -120,7 +120,6 @@ span {
     float: right;
     margin-right: 10px;
 }
-
 
 .listInner {
     position: relative;
@@ -254,8 +253,8 @@ span {
 }
 
 .textInner {
-    position: absolute;
-    width: 41%;
+    position: relative;
+    width: 95%;
     height: 100%;
     margin: 1%;
 }
@@ -275,4 +274,19 @@ span {
     position: absolute;
     clear: both;
     margin-top: 10px;
+}
+
+.textbox::-webkit-scrollbar {
+    width: 10px;
+}
+
+.textbox::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 50px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.textbox::-webkit-scrollbar-track {
+    display: none;
 }

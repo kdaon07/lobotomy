@@ -12,7 +12,6 @@
 </head>
 
 <body>
-    <img id="hiddenimg" style="height: 100%; width: 100%; display: none;" src="https://image.ytn.co.kr/general/jpg/2021/0601/202106011143173672_t.jpg">
     <div id="container">
         <header>
             <div class="left" style="margin-top: -10px;">
@@ -41,70 +40,73 @@
                     <span class="na">아무것도 없는</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">O-06-20</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="nt()">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히"
+                        onclick="nt()">
                 </div>
                 <div class="listInner AL">
                     <img src="images/Abnormality/ALEPH/The Silent Orchestra.png" width="100" height="100" class="A">
                     <span class="na">고요한 오케스트라</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">T-01-31</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" id="test2" onclick="so()">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히"
+                        onclick="so()">
                 </div>
                 <div class="listInner WA">
                     <img src="images/Abnormality/WAW/Tall Bird.png" width="100" height="100" class="W">
                     <span class="na">심판 새(긴 새)</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">O-02-62</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="tb()">
                 </div>
                 <div class="listInner WA">
                     <img src="images/Abnormality/WAW/red hoode.png" width="100" height="100" class="W">
                     <span class="na">붉은 두건의 용병</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">F-01-57</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="rh()">
                 </div>
                 <div class="listInner HE">
                     <img src="images/Abnormality/HE/Dead Butterflies.png" width="100" height="100" class="H">
                     <span class="na">죽은 나비들의 장례</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">T-01-68</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="db()">
                 </div>
                 <div class="listInner HE">
                     <img src="images/Abnormality/HE/All Helper.png" width="100" height="100" class="H">
                     <span class="na">무엇이든 도와드립니다</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">T-05-41</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="ah()">
                 </div>
                 <div class="listInner TE">
                     <img src="images/Abnormality/TETH/Scorched Girl.png" width="100" height="100" class="T">
                     <span class="na">불타버린 소녀</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">F-01-02</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="sg()">
                 </div>
                 <div class="listInner TE">
                     <img src="images/Abnormality/TETH/Punishing Bird.png" width="100" height="100" class="T">
                     <span class="na">징벌 새(작은 새)</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">O-02-56</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="pb()">
                 </div>
                 <div class="listInner ZA">
                     <img src="images/Abnormality/ZAYIN/Good Deeds.png" width="100" height="100" class="Z">
                     <span class="na">단 한번의 악과 수백 가지의 선행</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">O-03-03</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="good()">
                 </div>
                 <div class="listInner ZA">
                     <img src="images/Abnormality/ZAYIN/Not Touch.png" width="100" height="100" class="Z">
                     <span class="na">만지지마</span>
                     <span class="space">&nbsp;:&nbsp;</span>
                     <span class="number">O-05-47</span>
-                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히" onclick="don()">
+                    <input type="Button" class="detail" name="btdetail" style='cursor:pointer;' value="자세히"
+                        onclick="don()">
                 </div>
             </div>
         </section>
@@ -112,11 +114,70 @@
             <div id="nothing" class="textInner" style="display: none;">
                 <img src="images/Abnormality/ALEPH/Nothing there.png" width="100" height="100" class="A">
                 <div style="left:17%;"><a class="na">아무것도 없는</a> : O-06-20</div>
-                <div style="left:17%; top: 4%; color: red;" >등급 : ALEPH</div>
-                <div style="left:17%; top: 8%;" >그리고 많은 껍데기들은 '관리자님' 만을 부르짖었다.</div>
-                <div style="left:2%; top: 16%;" >그리고 많은 껍데기들은 '관리자님' 만을 부르짖었다.</div>
+                <div style="left:17%; top: 4%; color: red;">등급 : ALEPH</div>
+                <div style="left:17%; top: 8%;">그리고 많은 껍데기들은 '관리자님' 만을 부르짖었다.</div>
+                <div style="left:2%; top: 18%;">
+                    <div>관리방법</div>
+                    <div>관리법 1 : 용기 등급이 낮은 직원들은 아무 것도 없는의 작업에 대해 낮은 성공률을 보였으며, 작업을 안정적으로 진행하지 못했다.</div>
+                    <div>관리법 2 : 정의 4등급 미만인 직원이 작업을 완료하자 아무 것도 없는의 클리포트 카운터가 감소했다.</div>
+                    <div>관리법 3 : 작업을 진행하던 아라 직원이 아무 것도 없는의 공격을 받아 사망했다. 어느새 아무 것도 없는은 아라 직원의 모습을 하고 있었다. 작업을 진행하던 직원이
+                        패닉에 빠지는 경우에도 동일한 사례가 발생하는 것을 확인했다.</div>
+                    <div>관리법 4 : 작업 결과가 나쁨으로 결정되자 아무 것도 없는이 직원을 공격하여 새로운 껍데기로 만들었다.</div>
+                    <div>관리법 5 : 아무 것도 없는이 인간의 외형을 하고 있을 때 용기 3등급인 에반젤린 직원이 격리소에 투입되자 즉시 패닉 상태가 되었다. 용기 등급이 4 미만인 직원은 아무
+                        것도 없는의
+                        격리소에 보내지 않을 것을 권장한다.</div>
+                    <div>관리법 6 : 아무 것도 없는은 자신의 인간 외형을 본 직원들이 패닉에 빠지자 그들을 모두 자신의 껍데기로 삼았다. 그때마다 아무 것도 없는의 클리포트 카운터도 함께 감소했다.</div>
+                    <div>관리법 7 : 클리포트 카운터가 0이 되자 날으는 거북 직원의 외형을 한 아무 것도 없는이 격리소에서 사라졌다. 빠르게 해당 직원의 외형을 가진 아무 것도 없는을 찾아 사살해야 한다.</div>
+                </div>
             </div>
-            <div id="silent" class="textInner" style="display: none;">윤찬이가 원하지 않는거</div>
+            <div id="silent" class="textInner" style="display: none;">
+                <img src="images/Abnormality/ALEPH/The Silent Orchestra.png" width="100" height="100" class="A">
+                <div style="left:17%;"><a class="na">고요한 오케스트라</a> : T-01-31</div>
+                <div style="left:17%; top: 4%; color: red;">등급 : ALEPH</div>
+                <div style="left:17%; top: 8%;">망가진 것들에게서부터 세상에서 가장 아름다운 연주가 시작된다.</div>
+            </div>
+            <div id="Tbird" class="textInner" style="display: none;">
+                <img src="images/Abnormality/WAW/Tall Bird.png" width="100" height="100" class="W">
+                <div style="left:17%;"><a class="na">심판 새 (긴새)</a> : O-02-62</div>
+                <div style="left:17%; top: 4%; color: #7D2BEF;">등급 : WAW</div>
+                <div style="left:17%; top: 8%;">그의 천칭은 항상 어떤 죄의 무게도 소홀히 여기지 않았다.</div>
+            </div>
+            <div id="hoode" class="textInner" style="display: none;">       
+                <img src="images/Abnormality/WAW/red hoode.png" width="100" height="100" class="W">
+                <div style="left:17%;"><a class="na">붉은 두건의 용병</a> : F-01-57</div>
+                <div style="left:17%; top: 4%; color: #7D2BEF;">등급 : WAW</div>
+                <div style="left:17%; top: 8%;">그 머리통을 침대 위에 매달 거야. 그럼 나는 아침마다 악몽을 꾸지 않은 채로 잠에서 깨겠지.</div>
+            </div>
+            <div id="Butter" class="textInner" style="display: none;">
+                <img src="images/Abnormality/HE/Dead Butterflies.png" width="100" height="100" class="H">
+                <div style="left:17%;"><a class="na">죽은 나비들의 장례</a> : T-01-68</div>
+                <div style="left:17%; top: 4%; color: #e5ff00e9;">등급 : HE</div>
+                <div style="left:17%; top: 8%;">사람이 죽으면 어디로 가나.</div>
+            </div>
+            <div id="helper" class="textInner" style="display: none;">
+                <img src="images/Abnormality/HE/All Helper.png" width="100" height="100" class="H">
+                <div style="left:17%;"><a class="na">무엇이든 도와드립니다</a> : T-05-41</div>
+                <div style="left:17%; top: 4%; color: #e5ff00e9;">등급 : HE</div>
+                <div style="left:17%; top: 8%;">온 바닥을 덮은 선혈들, 울려퍼지는 괴성, 도망치는 사람들..</div>
+            </div>
+            <div id="sgirl" class="textInner" style="display: none;">
+                <img src="images/Abnormality/TETH/Scorched Girl.png" width="100" height="100" class="T">
+                <div style="left:17%;"><a class="na">불타버린 소녀</a> : F-01-02</div>
+                <div style="left:17%; top: 4%; color: rgb(0, 102, 255);">등급 : TETH</div>
+                <div style="left:17%; top: 8%;">너에게 간다. 곧 나처럼 잿더미가 되어 버릴 너에게로.</div>
+            </div>
+            <div id="Pbird" class="textInner" style="display: none;">
+                <img src="images/Abnormality/TETH/Punishing Bird.png" width="100" height="100" class="T">
+                <div style="left:17%;"><a class="na">징벌 새(작은 새)</a> : O-02-56</div>
+                <div style="left:17%; top: 4%; color: rgb(0, 102, 255);">등급 : TETH</div>
+                <div style="left:17%; top: 8%;">사람들은 아주 오래 전부터 악행을 저질러왔다. 잘못된 일인 줄 스스로 인식하면서도 굳이 행하는 이유는 무엇일까?</div>
+            </div>
+            <div id="Good" class="textInner" style="display: none;">
+                <img src="images/Abnormality/ZAYIN/Good Deeds.png" width="100" height="100" class="Z">
+                <div style="left:17%;"><a class="na">단 한번의 악과 수백 가지의 선행</a> : O-03-03</div>
+                <div style="left:17%; top: 4%; color: rgb(0, 240, 0);">등급 : ZAYIN</div>
+                <div style="left:17%; top: 8%;">그것은 사람의 대화를 통해 드러날 수 있는 '악'을 먹는다.</div>
+            </div>
         </div>
         <aside id="aside">
 
