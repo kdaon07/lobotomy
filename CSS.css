@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'lobo';
+    src: url('font/BMDOHYEON_ttf.ttf') format('truetype');
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +14,7 @@ body {
     width: 100%;
     overflow: scroll;
     overflow-x: hidden;
+    overflow-y: hidden;
     background: black;
     font-family: 'lobo';
     color: white;
@@ -23,6 +30,7 @@ body {
 header {
     width: 100%;
     float: left;
+    height: 20%;
 }
 
 
@@ -53,6 +61,18 @@ header {
 .left {
     float: left;
 }
+.na {
+    margin-top: 50px;
+    color:khaki;
+}
+
+.number {
+    margin-top: 50px;
+}
+
+.space {
+    margin-top: 50px;
+}
 
 img {
     margin: 10px;
@@ -70,7 +90,7 @@ span {
     border: 5px solid #cc8042;
     border-radius: 0px;
     width: 100%;
-    height: 600px;
+    height: 95%;
     float: left;
     margin-left: 10px;
 }
@@ -96,7 +116,7 @@ span {
     border: 5px solid #cc8042;
     border-radius: 0px;
     width: 45%;
-    height: 600px;
+    height: 570px;
     float: right;
     margin-right: 10px;
 }
@@ -104,7 +124,7 @@ span {
 
 .listInner {
     position: relative;
-    width: 783px;
+    width: 99.5%;
     height: 150px;
     border: 3px solid #AB281E;
     border-radius: 0px;
@@ -169,4 +189,90 @@ span {
 #imgcen {
     display: block;
     margin: auto;
+}
+
+#fA {
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-family: 'lobo';
+}
+
+#fW {
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #7D2BEF;
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-family: 'lobo';
+}
+#fH {
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e5ff00e9;
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-family: 'lobo';
+}
+#fT {
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(0, 102, 255);
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-family: 'lobo';
+}
+#fZ {
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(0, 240, 0);
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-family: 'lobo';
+}
+
+.textInner {
+    position: absolute;
+    width: 41%;
+    height: 100%;
+    margin: 1%;
+}
+
+.textInner > img {
+    margin: 0px;
+    margin-top: 0px;
+    float: left;
+}
+.textInner > div {
+    position: absolute;
+    clear: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.textInner > span {
+    position: absolute;
+    clear: both;
+    margin-top: 10px;
 }
