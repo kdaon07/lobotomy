@@ -191,10 +191,10 @@ span {
 }
 
 #fA {
-    border: none;
+    border: 3px solid red;
     text-align: center;
     border-radius: 10px;
-    background-color: red;
+    background-color: black;
     float: left;
     margin: 10px;
     width: 100px;
@@ -204,10 +204,10 @@ span {
 }
 
 #fW {
-    border: none;
+    border: 3px solid #7D2BEF;
     text-align: center;
     border-radius: 10px;
-    background-color: #7D2BEF;
+    background-color: black;
     float: left;
     margin: 10px;
     width: 100px;
@@ -216,10 +216,10 @@ span {
     font-family: 'lobo';
 }
 #fH {
-    border: none;
+    border: 3px solid #e5ff00e9;
     text-align: center;
     border-radius: 10px;
-    background-color: #e5ff00e9;
+    background-color: black;
     float: left;
     margin: 10px;
     width: 100px;
@@ -228,10 +228,10 @@ span {
     font-family: 'lobo';
 }
 #fT {
-    border: none;
+    border: 3px solid rgb(0, 102, 255);;
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(0, 102, 255);
+    background-color: black;
     float: left;
     margin: 10px;
     width: 100px;
@@ -240,10 +240,10 @@ span {
     font-family: 'lobo';
 }
 #fZ {
-    border: none;
+    border: 3px solid rgb(0, 240, 0);;
     text-align: center;
     border-radius: 10px;
-    background-color: rgb(0, 240, 0);
+    background-color: black;
     float: left;
     margin: 10px;
     width: 100px;
