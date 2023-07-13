@@ -290,3 +290,165 @@ span {
 .textbox::-webkit-scrollbar-track {
     display: none;
 }
+
+#worke {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+#worke:hover {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: #cc8042;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+.worke2 {
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    font-size: 100%;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border:3px solid #cc8042;
+    border-top: none;
+    width: 100%;
+    height: 0px;
+}
+
+.worke3 {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.worke4 {
+    clear: both;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.worke5 {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+
+.worke3 > div {
+    left: 10px;
+    position: relative;
+    margin-top: 7px;
+}
+
+.worke4 > div {
+    left: 10px;
+    position: relative;
+    margin-top: 7px;
+}
+
+.worke5 > div {
+    left: 10px;
+    position: relative;
+    margin-top: 7px;
+}
+
+#how {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+#how:hover {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: #cc8042;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+.how2 {
+    overflow:auto;
+    transition: all 0.3s ease-out;
+    font-size: 100%;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border:3px solid #cc8042;
+    border-top: none;
+    width: 100%;
+    height: 0px;
+}
+
+.how2::-webkit-scrollbar {
+    width: 10px;
+}
+
+.how2::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 50px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.how2::-webkit-scrollbar-track {
+    display: none;
+}
+
+.howbox {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin: 2.5%;
+    background-color: black;
+    border: 3px solid #cc8042;
+    padding: 8px;
+}
+
+#work {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+#work:hover {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: #cc8042;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+.work2 {
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    font-size: 100%;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border:3px solid #cc8042;
+    border-top: none;
+    width: 100%;
+    height: 0px;
+}

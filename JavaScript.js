@@ -26,7 +26,6 @@ function filter() {
 function filterW() {
     let search = document.getElementById("search").value.toLowerCase();
     let listInner = document.getElementsByClassName("WA");
-
     for (let i = 0; i < listInner.length; i++) {
         na = listInner[i].getElementsByClassName("na");
         number = listInner[i].getElementsByClassName("number");
@@ -35,7 +34,7 @@ function filterW() {
         ) {
             if (btW == 1)
                 listInner[i].style.display = "flex";
-                filterH();
+            filterH();
         } else {
             listInner[i].style.display = "none";
             filterH();
@@ -55,7 +54,7 @@ function filterH() {
         ) {
             if (btW == 1)
                 listInner[i].style.display = "flex";
-                filterT();
+            filterT();
         } else {
             listInner[i].style.display = "none";
             filterT();
@@ -75,7 +74,7 @@ function filterT() {
         ) {
             if (btW == 1)
                 listInner[i].style.display = "flex";
-                filterZ();
+            filterZ();
         } else {
             listInner[i].style.display = "none";
             filterZ();
@@ -127,7 +126,7 @@ function fA() {
             if (na[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
                 number[0].innerHTML.toLowerCase().indexOf(search) != -1
             )
-            listInner[i].style.display = "flex";
+                listInner[i].style.display = "flex";
 
         }
     }
@@ -244,6 +243,9 @@ function fZ() {
 
 
 function nt() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("nothing");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -253,6 +255,9 @@ function nt() {
 }
 
 function so() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("silent");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -262,6 +267,9 @@ function so() {
 }
 
 function tb() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("Tbird");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -271,6 +279,9 @@ function tb() {
 }
 
 function rh() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("hoode");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -280,6 +291,9 @@ function rh() {
 }
 
 function db() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("Butter");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -289,6 +303,9 @@ function db() {
 }
 
 function ah() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("helper");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -298,6 +315,9 @@ function ah() {
 }
 
 function sg() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("sgirl");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -306,6 +326,9 @@ function sg() {
     text.style.display = "flex";
 }
 function pb() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("Pbird");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
@@ -314,10 +337,63 @@ function pb() {
     text.style.display = "flex";
 }
 function good() {
+    if (work1 == 1) work();
+    if (worke3 == 1) worke();
+    if (how1 == 1) how();
     let text = document.getElementById("Good");
     let textInner = document.getElementsByClassName("textInner");
     for (let i = 0; i < textInner.length; i++) {
         textInner[i].style.display = "none";
     }
     text.style.display = "flex";
+}
+worke3 = 0;
+function worke() {
+    let listInner = document.getElementsByClassName("worke2");
+    if (worke3 == 0) {
+        worke3 = 1;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = "300px";
+        }
+    }
+    else {
+        worke3 = 0;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = "0px";
+        }
+    }
+}
+
+how1 = 0;
+function how() {
+    let listInner = document.getElementsByClassName("how2");
+    if (how1 == 0) {
+        how1 = 1;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = '400px';
+        }
+    }
+    else {
+        how1 = 0;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = "0px";
+        }
+    }
+}
+
+work1 = 0;
+function work() {
+    let listInner = document.getElementsByClassName("work2");
+    if (work1 == 0) {
+        work1 = 1;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = '400px';
+        }
+    }
+    else {
+        work1 = 0;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = "0px";
+        }
+    }
 }
