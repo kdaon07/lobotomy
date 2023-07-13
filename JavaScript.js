@@ -424,7 +424,7 @@ function EGO() {
     if (EGO1 == 0) {
         EGO1 = 1;
         for (let i = 0; i < listInner.length; i++) {
-            listInner[i].style.height = '400px';
+            listInner[i].style.height = '600px';
         }
     }
     else {
