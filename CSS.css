@@ -463,3 +463,69 @@ span {
     width: 100%;
     height: 0px;
 }
+
+#EGO {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+#EGO:hover {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: #cc8042;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+.EGO2 {
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    font-size: 100%;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border:3px solid #cc8042;
+    border-top: none;
+    width: 100%;
+    height: 0px;
+}
+
+#sty {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+#sty:hover {
+    font-size: 20px;
+    font-family: 'lobo';
+    color: white;
+    background-color: #cc8042;
+    border: 3px solid #cc8042;
+    width: 100%;
+    height: 45px;
+}
+
+.sty2 {
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    font-size: 100%;
+    font-family: 'lobo';
+    color: white;
+    background-color: black;
+    border:3px solid #cc8042;
+    border-top: none;
+    width: 100%;
+    height: 0px;
+}

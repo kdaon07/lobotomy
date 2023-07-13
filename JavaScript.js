@@ -1,6 +1,8 @@
 function don() {
     alert("만지지마");
     document.getElementById("container").style.display = "none";
+    document.getElementById("git").style.display = "flex";
+    document.getElementById("git2").style.display = "flex";
 }
 
 function filter() {
@@ -243,6 +245,8 @@ function fZ() {
 
 
 function nt() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -255,6 +259,8 @@ function nt() {
 }
 
 function so() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -267,6 +273,8 @@ function so() {
 }
 
 function tb() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -279,6 +287,8 @@ function tb() {
 }
 
 function rh() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -291,6 +301,8 @@ function rh() {
 }
 
 function db() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -303,6 +315,8 @@ function db() {
 }
 
 function ah() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -315,6 +329,8 @@ function ah() {
 }
 
 function sg() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -326,6 +342,8 @@ function sg() {
     text.style.display = "flex";
 }
 function pb() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -337,6 +355,8 @@ function pb() {
     text.style.display = "flex";
 }
 function good() {
+    if (sty1 == 1) sty();
+    if (EGO1 == 1) EGO();
     if (work1 == 1) work();
     if (worke3 == 1) worke();
     if (how1 == 1) how();
@@ -392,6 +412,40 @@ function work() {
     }
     else {
         work1 = 0;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = "0px";
+        }
+    }
+}
+
+EGO1 = 0;
+function EGO() {
+    let listInner = document.getElementsByClassName("EGO2");
+    if (EGO1 == 0) {
+        EGO1 = 1;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = '400px';
+        }
+    }
+    else {
+        EGO1 = 0;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = "0px";
+        }
+    }
+}
+
+sty1 = 0;
+function sty() {
+    let listInner = document.getElementsByClassName("sty2");
+    if (sty1 == 0) {
+        sty1 = 1;
+        for (let i = 0; i < listInner.length; i++) {
+            listInner[i].style.height = '400px';
+        }
+    }
+    else {
+        sty1 = 0;
         for (let i = 0; i < listInner.length; i++) {
             listInner[i].style.height = "0px";
         }
